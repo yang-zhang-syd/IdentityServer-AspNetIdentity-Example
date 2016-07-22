@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<h3>Identity Server Running!</h3>
+<br/>
+<h4>Useful Links</h4>
+<div class="list-group">
+    <a href="@Url.Action("Register", "Account")" class="list-group-item">Register New User</a>
+    <a href="#" class="list-group-item">Show Registered Client Apps (Coming soon)</a>
+    <a href="http://localhost:2616/admin" class="list-group-item">Identity Manager (Only works on server machine!)</a>
+    <a href="http://localhost:2616/identity/.well-known/openid-configuration" class="list-group-item">OpenId Configuration</a>
+</div>
